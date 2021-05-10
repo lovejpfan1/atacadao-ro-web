@@ -1,0 +1,17 @@
+.background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  margin: auto;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
+}

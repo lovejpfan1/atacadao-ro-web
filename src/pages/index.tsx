@@ -1,7 +1,12 @@
+import Template from '../components/Template';
+import Welcome from '../pages/Welcome';
+
 export default function Home() {
   return (
     <div>
-      Hello World!
+      <Template>
+        <Welcome />
+      </Template>
     </div>
   )
 }

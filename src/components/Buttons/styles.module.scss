@@ -1,0 +1,19 @@
+.outline {
+  text-align: center;
+  width: 14rem;
+  padding: 0.7rem 1rem;
+  color: var(--orange-1);
+  background-color: transparent;
+  border: 0.01rem solid var(--orange-1);
+  border-radius: 0.4rem;
+}
+
+.solid {
+  text-align: center;
+  width: 14rem;
+  padding: 0.7rem 1rem;
+  color: var(--white);
+  background-color: var(--orange-1);
+  border: 0;
+  border-radius: 0.4rem;
+}
