@@ -30,7 +30,7 @@ const Welcome = () => {
           </div>
         </Link>
         <div className={styles.link}>
-          <Link href="#">
+          <Link href="/recover-password">
             <a>Esqueceu a senha</a>
           </Link>
         </div>

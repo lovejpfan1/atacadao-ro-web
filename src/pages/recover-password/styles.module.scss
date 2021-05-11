@@ -1,0 +1,31 @@
+.rightContent {
+  max-width: 17rem;
+  h1 {
+    @media(max-width: 425px) {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.form {
+  margin-top: 2rem;
+
+  div {
+    margin-top: 1rem;
+  }
+
+  .formButtons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .miniInfo {
+    p {
+      color: var(--gray);
+    }
+  }
+
+  
+}
