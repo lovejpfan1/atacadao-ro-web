@@ -2,6 +2,7 @@ import styles from './styles.module.scss';
 
 interface  IButton {
   name: string,
+  type?: string
 }
 
 export const OutlineButton = ({ name } : IButton) => {
@@ -15,6 +16,14 @@ export const OutlineButton = ({ name } : IButton) => {
 export const SolidButton = ({ name } : IButton) => {
   return(
     <button className={styles.solid} >
+      {name}
+    </button>
+  )
+}
+
+export const ActionButton = ({ name, type } : IButton) => {
+  return(
+    <button className={type === 'success' ? styles.successAction : styles.dangerAction} >
       {name}
     </button>
   )

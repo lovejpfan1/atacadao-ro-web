@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 700;
+  }
+
+  input {
+    margin-top: 0.5rem;
+    border: 0.1rem solid var(--black);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 17rem;
+    transition: border 0.25s;
+
+    &::placeholder {
+      color: var(--gray-2);
+      padding: 0.5rem 0.1rem;
+    }
+
+    &:focus {
+      outline: none ;
+      border: 0.10rem solid var(--orange-1);
+      border-radius: 0.6rem;
+    }
+
+  }
+}

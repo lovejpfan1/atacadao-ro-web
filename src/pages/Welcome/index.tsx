@@ -22,9 +22,11 @@ const Welcome = () => {
         <div className={styles.button}>
           <OutlineButton name="Entrar"  />
         </div>
-        <div className={styles.button}>
-          <SolidButton name="Registrar" />
-        </div>
+        <Link href="/Register">
+          <div className={styles.button}>
+            <SolidButton name="Registrar" />
+          </div>
+        </Link>
         <div className={styles.link}>
           <Link href="#">
             <a>Esqueceu a senha</a>
