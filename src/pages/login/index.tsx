@@ -16,20 +16,14 @@ const Register = () => {
         </div>
 
         <div className={styles.rightContent}>
-          <h1>Cadastre-se</h1>
+          <h1>Entrar</h1>
           <div className={styles.form}>
             <form action="">
-              <div>
-                <DefaultInput label="Nome" type="text" placeholder="Ex: Alberto"/>
-              </div>
               <div>
                 <DefaultInput label="E-mail" type="email" placeholder="Ex: alberto@gmail.com"/>
               </div>
               <div>
                 <DefaultInput label="Senha" type="password" placeholder="Ex: abxh@7x9854!"/>
-              </div>
-              <div>
-                <DefaultInput label="Repita a senha" type="password" placeholder="Ex: abxh@7x9854!"/>
               </div>
               <div className={styles.formButtons}>
                 <ActionButton name="Cadastrar" type="success" />
@@ -41,7 +35,7 @@ const Register = () => {
               </div>
               <div className={styles.formLink}>
                 <Link href="#">
-                  <a>Já possui cadastro? Entre</a>
+                  <a>Não possui cadastro? Cadastre-se</a>
                 </Link>
               </div>
             </form>

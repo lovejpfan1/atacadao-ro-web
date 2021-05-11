@@ -1,5 +1,5 @@
 import Template from '../components/Template';
-import Welcome from '../pages/Welcome';
+import Welcome from './welcome';
 
 export default function Home() {
   return (

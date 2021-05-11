@@ -19,10 +19,12 @@ const Welcome = () => {
       {/* right content of the page */}
       <div className={styles.rightContent}>
         <h2>Bem-vindo!</h2>
-        <div className={styles.button}>
-          <OutlineButton name="Entrar"  />
-        </div>
-        <Link href="/Register">
+        <Link href="/login">
+          <div className={styles.button}>
+            <OutlineButton name="Entrar"  />
+          </div>
+        </Link>
+        <Link href="/register">
           <div className={styles.button}>
             <SolidButton name="Registrar" />
           </div>
