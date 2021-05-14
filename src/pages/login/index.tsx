@@ -26,10 +26,10 @@ const Register = () => {
                 <DefaultInput label="Senha" type="password" placeholder="Ex: abxh@7x9854!"/>
               </div>
               <div className={styles.formButtons}>
-                <ActionButton name="Cadastrar" type="success" />
+                <ActionButton name="Entrar" type="success" />
                 <Link href="/">
                   <a>
-                    <ActionButton name="Cancelar" type="danger" />              
+                    <ActionButton name="Voltar" type="danger" />              
                   </a>
                 </Link>
               </div>
